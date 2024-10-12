@@ -2,7 +2,7 @@ import chromadb
 from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
 
-model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+model = SentenceTransformer('distiluse-base-multilingual-cased-v2')
 
 def get_model():
     return model
